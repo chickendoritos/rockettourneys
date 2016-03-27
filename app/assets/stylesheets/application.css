@@ -10,9 +10,81 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require 'bootstrap.min'
+ *= require 'bootstrap-override'
+ *= require 'robotoregular'
+ *= require 'scaffolds'
+ *= require 'welcome'
  */
+
 body {
 	background-image: url("background.jpg");
+	font-family: "robotoregular" 
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#logoHeader {
+	margin: 20px auto 0px auto; 
+	display: block;
+}
+
+#logoHeaderTag {
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 5px;
+}
+
+#logoHeaderTag a {
+	color: white;
+	text-decoration: underline;
+}
+
+#logoHeaderTag a:hover {
+	color: lightgray;
+	background-color: transparent;
+}
+
+.fadedBox {
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+.twitterLogo {
+	width: 50px;
+}
+
+.fadedBlueBox {
+	/*background-color: rgba( 54, 62, 68, 0.68 );*/
+	background-color: rgba( 0, 61, 148, 0.6 );
+}
+
+.fadedGrayBox {
+	/*background-color: rgba( 54, 62, 68, 0.68 );*/
+	background-color: rgba( 125, 125, 125, 0.6 );
+}
+
+.fadedOrangeBox {
+	background-color: rgba( 255, 139, 0, 0.6 );
+}
+
+.fadedRightBox {
+	border-top-left-radius: 8px; 
+	border-bottom-left-radius: 8px;
+}
+
+.fadedLeftBox {
+	border-top-right-radius: 8px; 
+	border-bottom-right-radius: 8px;
 }
