@@ -16,10 +16,11 @@
  *= require 'robotoregular'
  *= require 'scaffolds'
  *= require 'welcome'
+  *= require 'menustyles'
  */
 
 body {
-	background-image: url("background.jpg");
+	background-color: #ecf0f1;
 	font-family: "robotoregular" 
 }
 
@@ -27,42 +28,61 @@ h1 {
 	font-size: 50px;
 }
 
-#logoHeader {
-	margin: 20px auto 0px auto; 
-	display: block;
-}
-
-#logoHeaderTag {
-	padding: 5px;
-	color: white;
-	text-align: center;
-	font-size: 15px;
-	font-style: italic;
-	background-color: rgba(0, 0, 0, .5);
-	border-radius: 5px;
-}
-
-#logoHeaderTag a {
-	color: white;
-	text-decoration: underline;
-}
-
-#logoHeaderTag a:hover {
-	color: lightgray;
-	background-color: transparent;
+#cssmenu {
+	box-shadow: 2px 2px 10px #000;
 }
 
 .fadedBox {
-	padding: 15px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	padding-top: 15px;
 	padding-bottom: 15px;
 	color: white;
+	box-shadow: 1px 1px 10px #000;
+}
+.fadedBox .title {
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+    height: 0px;
+    margin-top: -.5px;
+    display: inline-block;
+    position: absolute;
+    font-weight: bolder;
 }
 
+.fadedBox .leftTitle {
+    width: 60%;
+}
+
+.fadedBox .rightTitle {
+	width: 90%;
+    right: 0px;
+}
+
+.fadedBox .customleftBar {
+	position: absolute;
+	border-right: 50px solid transparent;
+    border-top: 50px solid rgb(76,76,76);
+    width: 60%;
+}
+
+.fadedBox .customRightBar {
+	position: absolute;
+	right: 0px;
+	border-left: 50px solid transparent;
+    border-top: 50px solid rgb(76,76,76);
+    width: 90%;
+}
+
+.fadedBox p {
+	margin-top: 50px;
+	padding: 10px
+}
+
+
 .twitterLogo {
-	width: 50px;
+	width: 30px;
+	margin-top: -5px;
 }
 
 .fadedBlueBox {
@@ -72,7 +92,7 @@ h1 {
 
 .fadedGrayBox {
 	/*background-color: rgba( 54, 62, 68, 0.68 );*/
-	background-color: rgba( 125, 125, 125, 0.6 );
+	background-color: rgba(52, 152, 219,.6);
 }
 
 .fadedOrangeBox {

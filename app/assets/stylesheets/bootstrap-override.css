@@ -20,7 +20,7 @@
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
-	background-color: transparent;
+	background-color: rgb(38, 38, 38);
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
@@ -30,7 +30,7 @@
 }
 
 .dropdown-menu {
-	background-color: transparent;
+	background-color: rgb(38, 38, 38);
 }
 
 .dropdown-menu>li>a {

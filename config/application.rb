@@ -24,5 +24,8 @@ module Rockettourneys
     config.active_record.raise_in_transactional_callbacks = true
     #config.serve_static_files = true
     #config.serve_static_assets = true
+
+    Challonge::API.username = 'redditleaguetest'
+    Challonge::API.key = 'auOkcLbqb7V4trA1sKgQ0GiyE8QSC6UhyBR4OJZz'
   end
 end
