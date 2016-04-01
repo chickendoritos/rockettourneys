@@ -28,12 +28,13 @@
   display: none;
 }
 #cssmenu {
-  width: auto;
+  margin: 0px auto;
   font-family: 'Open Sans', sans-serif;
   line-height: 1;
   background: #ffffff;
 }
 #menu-line {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -45,7 +46,11 @@
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
-#cssmenu > ul > li {
+#cssmenu > ul > li.notLogo {
+  float: right;
+  margin-top: 8px;
+}
+#cssmenu > ul > li.logo {
   float: left;
 }
 #cssmenu.align-center > ul {

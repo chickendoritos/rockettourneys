@@ -32,7 +32,16 @@ h1 {
 	box-shadow: 2px 2px 10px #000;
 }
 
-.fadedBox {
+#twitchLink {
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	padding: 5px;
+	background-color: #ffffff;
+	border-radius: 2px;
+}
+
+/*.fadedBox {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
@@ -77,7 +86,7 @@ h1 {
 .fadedBox p {
 	margin-top: 50px;
 	padding: 10px
-}
+}*/
 
 
 .twitterLogo {
@@ -85,13 +94,11 @@ h1 {
 	margin-top: -5px;
 }
 
-.fadedBlueBox {
-	/*background-color: rgba( 54, 62, 68, 0.68 );*/
+/*.fadedBlueBox {
 	background-color: rgba( 0, 61, 148, 0.6 );
 }
 
 .fadedGrayBox {
-	/*background-color: rgba( 54, 62, 68, 0.68 );*/
 	background-color: rgba(52, 152, 219,.6);
 }
 
@@ -107,4 +114,4 @@ h1 {
 .fadedLeftBox {
 	border-top-right-radius: 8px; 
 	border-bottom-right-radius: 8px;
-}
+}*/

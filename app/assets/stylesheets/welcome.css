@@ -4,6 +4,11 @@
 	background-size: cover;
 }
 
+#mainbox h2 {
+	color: white;
+	font-weight: bold;
+}
+
 #headerbox {
 	margin-bottom: 50px;
 	margin-top: 50px;
