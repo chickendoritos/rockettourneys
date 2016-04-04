@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-  	@tourneys = JSON.parse(Challonge::Tournament.find(:all).to_json)
+  	@tourneys = Challonge::Tournament.find(:all)
   end
 end
