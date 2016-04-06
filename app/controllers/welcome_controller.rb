@@ -1,6 +1,8 @@
 class WelcomeController < ApplicationController
+
   def index
-  	#@tourneys = Challonge::Tournament.find(:all)
-  	@tourneys = []
+  	#headers['Access-Control-Allow-Origin'] = "*"
+  	@tourneys = Challonge::Tournament.find(:all)
+  	#@tourneys = []
   end
 end

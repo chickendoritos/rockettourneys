@@ -10,11 +10,11 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_self
  *= require 'bootstrap.min'
  *= require 'bootstrap-override'
  *= require 'robotoregular'
  *= require 'scaffolds'
+ *= require_self
  *= require 'welcome'
   *= require 'menustyles'
  */
@@ -39,6 +39,14 @@ h1 {
 	padding: 5px;
 	background-color: #ffffff;
 	border-radius: 2px;
+}
+
+.well {
+	background-color: #333333;
+}
+
+.well h2, .well h4{
+	color: white;
 }
 
 /*.fadedBox {

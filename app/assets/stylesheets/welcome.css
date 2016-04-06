@@ -4,11 +4,6 @@
 	background-size: cover;
 }
 
-#mainbox h2 {
-	color: white;
-	font-weight: bold;
-}
-
 #headerbox {
 	margin-bottom: 50px;
 	margin-top: 50px;
@@ -37,4 +32,14 @@
 #logoHeaderTag a:hover {
 	color: lightgray;
 	background-color: transparent;
+}
+
+.tourneyTime {
+	padding: 15px 0px;
+	margin: 5px 0px;
+}
+
+.tourneyName{
+	padding: 5px 0px;
+	margin: 5px 0px;
 }

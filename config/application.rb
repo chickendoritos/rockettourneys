@@ -25,7 +25,7 @@ module Rockettourneys
     #config.serve_static_files = true
     #config.serve_static_assets = true
 
-    Challonge::API.username = 'redditleaguetest'
-    Challonge::API.key = '7je5UUxLQgfsJANAgN805DuUkdrJd3ZERBirfNui'
+    Challonge::API.username = 'redditleaguetest123'
+    Challonge::API.key = '3qbGFhI6gzLvg4aq1LMfBJrJHraPpFxc3vS6ZPgW'
   end
 end
